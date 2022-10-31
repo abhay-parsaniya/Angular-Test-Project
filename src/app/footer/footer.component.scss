@@ -1,0 +1,26 @@
+.Footer__Container {
+  background-color: black;
+  color: white;
+  padding: 50px 25px;
+}
+
+.Footer__Description {
+  text-align: center;
+  min-height: 30vh;
+  padding: 15px;
+  margin: 25px;
+}
+
+.Footer__Description__Data {
+  max-width: 75%;
+  margin: auto;
+  line-height: 1.5rem;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.Footer__Content{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}

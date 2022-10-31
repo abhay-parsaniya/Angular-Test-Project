@@ -1,0 +1,35 @@
+.Main-Body__Container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.Main-Body__Image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.Main-Body__Centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(234, 174, 204);
+  padding: 20px;
+  min-width: 50vw;
+  border-radius: 10px;
+}
+
+.Main-Body__Content {
+  font-size: 50px;
+}
+
+.Main-Body__Buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Main-Body__Submit__Button{
+    font-size: 30px;
+}
