@@ -1,22 +1,22 @@
-.Header__Container {
-  background-color: rgb(164, 253, 161);
+.header-container {
+  background-color: rgb(185, 198, 250);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 25px;
 }
 
-.Header__Heading {
+.header-heading {
   cursor: pointer;
 }
 
-.Header__Items {
+.header-items {
   list-style: none;
   display: flex;
   justify-content: flex-end;
 }
 
-.Header__Item {
+.header-item {
   margin: 0px 10px;
   font-size: 20px;
   cursor: pointer;

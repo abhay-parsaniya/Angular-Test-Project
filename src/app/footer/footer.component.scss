@@ -1,17 +1,17 @@
-.Footer__Container {
+.footer-container {
   background-color: black;
   color: white;
   padding: 50px 25px;
 }
 
-.Footer__Description {
+.footer-description {
   text-align: center;
   min-height: 30vh;
   padding: 15px;
   margin: 25px;
 }
 
-.Footer__Description__Data {
+.footer-description-data {
   max-width: 75%;
   margin: auto;
   line-height: 1.5rem;
@@ -19,7 +19,7 @@
   letter-spacing: 2px;
 }
 
-.Footer__Content{
+.footer-content{
     display: flex;
     justify-content: space-around;
     font-size: 20px;

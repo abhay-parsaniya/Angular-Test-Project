@@ -1,35 +1,31 @@
-.Main-Body__Container {
+.main-body-container {
   position: relative;
   text-align: center;
-  color: black;
+  color: rgb(219, 215, 215);
 }
 
-.Main-Body__Image {
+.main-body-image {
   width: 100%;
   height: 100vh;
   object-fit: cover;
 }
 
-.Main-Body__Centered {
+.main-body-centered {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 25%;
   transform: translate(-50%, -50%);
-  background-color: rgb(234, 174, 204);
+  background-color: rgb(234, 174, 204, 0.3);
   padding: 20px;
-  min-width: 50vw;
+  min-width: 40vw;
   border-radius: 10px;
 }
 
-.Main-Body__Content {
+.main-body-content {
   font-size: 50px;
 }
 
-.Main-Body__Buttons{
+.main-body-buttons{
     display: flex;
     justify-content: space-around;
-}
-
-.Main-Body__Submit__Button{
-    font-size: 30px;
 }
