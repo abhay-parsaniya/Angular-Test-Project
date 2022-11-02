@@ -1,10 +1,6 @@
 <div class="header-container">
-    <h1 class="header-heading">Test</h1>
-    <ul class="header-items">
-        <li class="header-item">Home</li>
-        <li class="header-item">About</li>
-        <li class="header-item">Services</li>
-        <li class="header-item">Info</li>
-        <li class="header-item">Contact us</li>
-    </ul>
+  <h1 class="header-heading">{{ headerHeading }}</h1>
+  <ul class="header-items">
+    <li class="header-item" *ngFor="let item of navbarItems">{{ item }}</li>
+  </ul>
 </div>

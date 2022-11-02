@@ -1,17 +1,27 @@
 <div class="footer-container">
-    <div class="footer-description">
-        <h1 class="footer-description-heading">Web Developer</h1>
-        <p class="footer-description-data">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus
-          optio impedit officia, error velit quae culpa aut mollitia eum suscipit qui
-          sit beatae quis, magni unde at dolorum quidem. Veritatis quisquam neque odio
-          error eveniet qui sed non facilis laborum ipsum quis debitis rerum placeat
-          amet nesciunt, suscipit iste magni rem quae, sequi natus omnis vero? Vel,
-          aliquid et.
-        </p>
-    </div>
-    <div class="footer-content">
-        <p>Copyright @2022</p>
-        <p>Unity Group</p>
-    </div>
+  <div class="footer-description">
+    <h1 class="footer-description-heading" [ngSwitch]="footerTitle">
+      <div *ngSwitchCase="'Web Developer'">
+        <p>Web Developer</p>
+      </div>
+      <div *ngSwitchCase="'Web Designer'">
+        <p>Web Designer</p>
+      </div>
+      <div *ngSwitchDefault>
+        <p>Hello Employee</p>
+      </div>
+    </h1>
+    <p class="footer-description-data">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus
+      optio impedit officia, error velit quae culpa aut mollitia eum suscipit
+      qui sit beatae quis, magni unde at dolorum quidem. Veritatis quisquam
+      neque odio error eveniet qui sed non facilis laborum ipsum quis debitis
+      rerum placeat amet nesciunt, suscipit iste magni rem quae, sequi natus
+      omnis vero? Vel, aliquid et.
+    </p>
+  </div>
+  <div class="footer-content">
+    <p [ngClass]="{ 'footer-content-cpr': true }">Copyright @2022</p>
+    <p [ngStyle]="{ 'background-color': 'green' }">Unity Group</p>
+  </div>
 </div>

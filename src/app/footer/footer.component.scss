@@ -19,8 +19,12 @@
   letter-spacing: 2px;
 }
 
-.footer-content{
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.footer-content-cpr {
+  background-color: red;
 }

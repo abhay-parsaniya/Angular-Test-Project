@@ -1,14 +1,21 @@
 <div class="main-body-container">
-  <img
-    src="https://media.monsterindia.com/career-advice/wp-content/uploads/2021/11/web-developer-interview-questions-and-answers.jpg"
-    alt="Image Not Found"
-    class="main-body-image"
-  />
+  <img [src]="imgUrl" alt="Image Not Found" class="main-body-image" />
   <div class="main-body-centered">
-    <h1 class="main-body-content">Hello Developers</h1>
+    <input
+      type="text"
+      [(ngModel)]="greetingMsg"
+      (ngModelChange)="saveClickHandler()"
+    />
+    <h1 class="main-body-content">{{ greetingMsg }} {{ count }}</h1>
     <div class="main-body-buttons">
-      <app-button></app-button>
-      <app-button></app-button>
+      <app-button
+        [label]="incrementLabel"
+        (incrementBtnClick)="onIncrement()"
+      ></app-button>
+      <app-button
+        [label]="decrementLabel"
+        (decrementBtnClick)="onDecrement()"
+      ></app-button>
     </div>
   </div>
 </div>

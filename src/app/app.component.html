@@ -1,4 +1,6 @@
-<h1 class="App__Heading">Hello Angular</h1>
+<h1 class="app-heading" *ngIf="isDisplay" (click)="changeVisibility()">
+  Hello Angular
+</h1>
 
 <app-header></app-header>
 
