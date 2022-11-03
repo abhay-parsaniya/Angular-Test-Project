@@ -8,6 +8,7 @@ import { MainBodyComponent } from './main-body/main-body.component';
 import { FooterComponent } from './footer/footer.component';
 import { ButtonComponent } from './button/button.component';
 import { FormsModule } from '@angular/forms';
+import { SelectCityComponent } from './select-city/select-city.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     MainBodyComponent,
     FooterComponent,
-    ButtonComponent
+    ButtonComponent,
+    SelectCityComponent
   ],
   imports: [
     BrowserModule,
