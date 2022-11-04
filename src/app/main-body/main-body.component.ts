@@ -24,10 +24,10 @@ export class MainBodyComponent implements OnInit {
   }
 
   onIncrement() {
-    return this.count += 1;
+    return (this.count += 1);
   }
 
   onDecrement() {
-    return this.count -= 1;
+    return (this.count -= 1);
   }
 }
